@@ -32,7 +32,7 @@ app.use(
 const userRoutes = require("./user_entity/user.index");
 const planRoutes = require("./plan_entity/plan.index");
 const subscriptionRoutes = require("./subscription_entity/subscription.index");
-const { error } = require("./middlewares/Error");
+const { error } = require("./middlewares/error");
 
 // use routes
 app.use("/api/user", userRoutes);
